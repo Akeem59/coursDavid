@@ -11,6 +11,7 @@ class Dao
     private static $user = "root";
     private static $password = "";
     private static $connection;
+    
     public static function open()
     {
         $dsn = "mysql:" .
